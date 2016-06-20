@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  LYSDK
+//
+//  Created by luoyang on 16/5/27.
+//  Copyright © 2016年 leroy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define IOS9 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? YES : NO)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+
+
+#endif /* PrefixHeader_pch */
